@@ -11,33 +11,16 @@ This Arduino project implements a simple door lock access control system using a
 - LEDs (Green and Red)
 - Buzzer
 
+
 ## Dependencies
 - [MFRC522 Library](https://github.com/miguelbalboa/rfid) for RFID module communication.
 
 ## Installation
 1. Download and install the required libraries.
-2. Connect the components according to the circuit diagram (placeholder link).
+2. Connect the components according to the circuit diagram.
 
 ## Circuit Diagram
- +----------------------------------------------------+
- |                  Arduino                           |
- |                                                    |
- |  +--------------+            +------------+        |
- |  |   MFRC522    |            | LCD with   |        |
- |  |   RFID       |            | I2C        |        |
- |  +------+-------+            +------------+        |
- |         |                            |             |
- | +-------v-------+        +-----------v------+      |
- | |  Lock Output  |        |  Green LED       |      |
- | |   (Pin 2)      |        |   (Pin 3)       |      |
- | +---------------+        +------------------+      |
- |          |                          |              |
- | +--------v---------+        +------v---------+     |
- | | Red LED           |        | Buzzer        |     |
- | |   (Pin 4)         |        |   (Pin 5)     |     |
- | +------------------+        +----------------+     |
- |                                                    |
- +----------------------------------------------------+
+ 
 
 
 
