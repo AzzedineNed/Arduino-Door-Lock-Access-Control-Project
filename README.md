@@ -19,6 +19,8 @@ This Arduino project implements a simple door lock access control system using a
 2. Connect the components according to the circuit diagram (placeholder link).
 
 ## Circuit Diagram
+
+
  +----------------------------------------------------+
  |                  Arduino                           |
  |                                                    |
