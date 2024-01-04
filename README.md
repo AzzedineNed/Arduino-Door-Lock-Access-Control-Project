@@ -11,6 +11,7 @@ This Arduino project implements a simple door lock access control system using a
 - LEDs (Green and Red)
 - Buzzer
 
+![Components](https://github.com/AzzedineNed/Arduino-Door-Lock-Access-Control-Project/blob/main/components.jpg)
 
 ## Dependencies
 - [MFRC522 Library](https://github.com/miguelbalboa/rfid) for RFID module communication.
@@ -21,8 +22,7 @@ This Arduino project implements a simple door lock access control system using a
 
 ## Circuit Diagram
  
-
-
+![Circuit Diagram](https://github.com/AzzedineNed/Arduino-Door-Lock-Access-Control-Project/blob/main/circuitPNG.PNG)
 
 ## Setup
 1. Upload the provided Arduino script to your Arduino board.
